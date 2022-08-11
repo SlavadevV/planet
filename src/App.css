@@ -1,0 +1,198 @@
+.App {
+  background: #e8e5e5;
+}
+
+.App-header {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.card {
+  border-radius: 24px !important;
+
+}
+
+.card-content {
+  border-radius: 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.planet {
+  height: 175px;
+  width: 175px;
+}
+
+.loading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  min-height: 500px;
+}
+
+.color1 {
+  background-image: url("./image/planet-1.svg");
+}
+
+.color2 {
+  background: url("./image/planet-2.svg") no-repeat;
+}
+
+.color3 {
+  background: url("./image/planet-3.svg") no-repeat;
+}
+
+.color4 {
+  background: url("./image/planet-4.svg") no-repeat;
+}
+
+.color5 {
+  background: url("./image/planet-5.svg") no-repeat;
+}
+
+.color6 {
+  background: url("./image/planet-6.svg") no-repeat;
+}
+
+.color7 {
+  background: url("./image/planet-7.svg") no-repeat;
+}
+
+.color8 {
+  background: url("./image/planet-8.svg") no-repeat;
+}
+
+.color9 {
+  background: url("./image/planet-9.svg") no-repeat;
+}
+
+.title {
+  text-align: left !important;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sub-title {
+  text-align: left !important;
+  margin: 0;
+  font-size: 13px;
+  color: #6b6969;
+}
+
+.title-details {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 35px;
+  font-weight: bold;
+
+
+}
+
+.sub-title-details {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #6b6969;
+  margin-bottom: 25px;
+}
+
+.numbers {
+  font-size: 15px;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 25px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-info {
+  margin-left: 50px;
+  border-radius: 24px !important;
+  width: 450px;
+
+}
+
+.icon {
+  position: relative;
+  left: 253px;
+  background: #e5e0e0;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+}
+
+.button {
+  color: #131313 !important;
+  font-size: medium;
+  font-weight: bold !important;
+  text-transform: none !important;
+}
+
+.img {
+  background: white;
+  border-radius: 23px;
+  margin-top: 100px;
+}
+
+.grid{
+  width: calc(100% + 24px);
+  margin-left: -24px;
+}
+
+@media (min-width: 480px) {
+  .icon {
+    position: relative;
+    left: 213px;
+    background: #e5e0e0;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .icon {
+    position: relative;
+    left: 213px;
+    background: #e5e0e0;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  .icon {
+    position: relative;
+    left: 253px;
+    background: #e5e0e0;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+  }
+
+
+  @media only screen and (min-width: 1100px) {
+
+    .icon {
+      position: relative;
+      left: 253px;
+      background: #e5e0e0;
+      border-radius: 5px;
+      height: 35px;
+      width: 35px;
+    }
+
+  }
+
+}
